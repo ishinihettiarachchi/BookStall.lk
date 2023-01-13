@@ -23,7 +23,6 @@
         <ul >
             <li><a href="index.php">Home</a></li>
             <li>About Us</li>
-            
         </ul>
     </div>
     <div class="banner-img">

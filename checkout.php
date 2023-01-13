@@ -35,7 +35,7 @@
 <div class="header-2">
     <nav class="navbar">
         <a href="index.php">home</a>
-        <a href="product.php">product</a>
+        <a href="shopping_page.php">shop</a>
         <a href="about.php">about</a>
         <a href="contact.php">contact</a>
 

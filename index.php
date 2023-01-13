@@ -1,5 +1,5 @@
 <?php
-    include("dbconnection.php");
+    include "dbconnection.php";
 
     $sql = "SELECT img FROM offer;";
     $stmt = $con->prepare($sql);
@@ -54,7 +54,7 @@
     <div class="header-2">
         <nav class="navbar">
             <a href="#home">home</a>
-            <a href="product.php">product</a>
+            <a href="shop.php">shop</a>
             <a href="about.php">about</a>
             <a href="contact.php">contact</a>
 
@@ -72,7 +72,7 @@
     <a href="#blogs" class="fas fa-blog"></a>
 </nav>
 -->
-<!-- login form  -->
+
 
 <div class="login-form-container">
 
@@ -90,12 +90,14 @@
         </div>
         <input type="submit" value="sign in" class="btn">
         <p>forget password ? <a href="#">click here</a></p>
-        <p>don't have an account ? <a href="#">create one</a></p>
+        <p>don't have an account ? <a href="signup.php">create one</a></p>
     </form>
 
 </div>
 
-<!-- home section starts  -->
+</div>
+
+   
 
 <section class="home" id="home">
 
